@@ -1,10 +1,9 @@
 <template>
-  <div>HelloWorld</div>
+  <div>{{ test }}</div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-  components: {}
-}
+<script setup>
+import { ref } from 'vue';
+
+export const test = ref('Hello World');
 </script>
