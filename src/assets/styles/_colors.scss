@@ -1,0 +1,11 @@
+@use 'sass:map';
+@use 'sass:list';
+@use 'base-colors' as *;
+
+$primary: $dark-green;
+$support: $light-green;
+$text: $black;
+$text-light: rgba($black, 0.5);
+$text-contrast: $white;
+$background: $white;
+$disabled: $gray;
